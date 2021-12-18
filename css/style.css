@@ -121,3 +121,193 @@ nav{
 }
 
 /* P R E Ç O S */
+
+.pricing-container{
+    padding-bottom: 5em;
+    text-align: center;
+}
+.pricing-container h1{
+    font-size: 36px;
+    margin-top: 0;
+}
+
+.pricing-container p{
+    font-size: 20px;
+}
+
+.planos-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.plan{
+    flex: 1 1 200px;
+    max-width: 275px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.plan ul{
+    padding: 0;
+}
+
+.plan li{
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #e8e9ea;
+    color: #333;
+}
+
+.plan .price{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #2cc762;
+    color: #fff;
+    text-align: center;
+    line-height: 120px;
+    font-size: 18px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -50px;
+}
+
+.plan .nome-plano{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #202b34;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.plan .plan-btn{
+    background-color: #2cc762;
+    color: #fff;
+    font-size: 24px;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+}
+
+.plan .destaque{
+    background-color: #f45c57;
+}
+
+/*  B U S C A R    D O M Í N I O */
+
+.searchdomain-container{
+    background-color: #34454e;
+    text-align: center;
+    padding: 5em 0;
+}
+
+.searchdomain-container h2{
+    color: #fff;
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.searchdomain-container p{
+    color: #d5d5d5;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.searchdomain-container input{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 5px;
+}
+
+.searchdomain-container input[type="text"]{
+    margin-bottom: 25px;
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.searchdomain-container input[type="submit"]{
+   background-color: #2cc76a;
+   padding: 15px 30px;
+   color: #fff;
+   font-size: 24px;
+   cursor: pointer;
+}
+
+/* C O N T A T O  */
+
+.container-contato{
+    text-align: center;
+    padding: 5em 0;
+}
+
+.container-contato h2{
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 36px;
+}
+
+.container-contato p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+form{
+    display: block;
+}
+
+.container-contato input, .container-contato textarea{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.container-contato textarea{
+    display: block;
+    font-size: 16px;
+    padding: 10px 20px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    width: 468px;
+    height: 150px;
+}
+
+.container-contato input[type="submit"]{
+    width: 15%;
+    height: 50px;
+    font-size: 18px;
+    background-color: #2cc76a;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    
+}
